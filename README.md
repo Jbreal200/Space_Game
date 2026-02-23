@@ -33,13 +33,6 @@ To install the required dependencies, run:
 ```bash
 pip install pygame
 ```
-
-Or for Python 3.14:
-
-```bash
-py -3.14 -m pip install pygame --upgrade
-```
-
 ## Project Files
 
 - `main.py` - Main gravity simulation application with interactive spacecraft launching
@@ -67,10 +60,6 @@ py -3.14 -m pip install pygame --upgrade
    - If it stays in orbit for 8+ seconds, it will display "IN ORBIT"
    - Objects that crash into the planet or leave the screen are removed
 
-4. **Run the test application**:
-   ```bash
-   python test.py
-   ```
 
 ## Game Mechanics
 
@@ -83,3 +72,4 @@ py -3.14 -m pip install pygame --upgrade
 
 - **Left Mouse Button**: Set launch position (first click) or velocity direction (second click)
 - **Close Window**: Exit the simulation
+
